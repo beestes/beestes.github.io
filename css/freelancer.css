@@ -8,17 +8,22 @@ body {
 
 h1 {
   font-weight: 700;
-  color: #333;
-  letter-spacing: 6px; 
+  color: #c7c7c7;
+  letter-spacing: 8px; 
   font-family: 'Lato', sans-serif; }
 
 h1.name {
   font-weight: 100;
-  color: #333;
+  color: #fff;
   letter-spacing: 3px; 
   font-family: 'Lato', sans-serif; }
 
-h2,
+h2 {
+  font-weight: 100;
+  color: #00e5e5;
+  letter-spacing: 10px;
+  font-family: 'Lato', sans-serif; }
+
 h3,
 h4,
 h5,
@@ -53,14 +58,14 @@ hr.star-med {
 
 hr.star-med:after {
   color: #fff;
-  background-color: #c7c7c7; }
+  background-color: #a3a3a3; }
 
 hr.star-light {
   border-color: #00e5e5; }
 
 hr.star-light:after {
   color: #333;
-  background-color: #c7c7c7; }
+  background-color: #a3a3a3; }
 
 hr.star-dark {
   border-color: #00e5e5; }
@@ -157,15 +162,15 @@ header.masthead {
     line-height: 3rem; }
   header.masthead h2 {
     font-size: 1.3rem;
-    font-family: 'Lato'; }
+    line-height: 3rem; }
 
 @media (min-width: 992px) {
   header.masthead {
     padding-top: calc(6rem + 106px);
     padding-bottom: 6rem; }
     header.masthead h1 {
-      font-size: 4.75em;
-      line-height: 4rem; }
+      font-size: 9em;
+      line-height: 8rem; }
     header.masthead h2 {
       font-size: 1.75em; } }
 
@@ -263,13 +268,13 @@ form .row:first-child .floating-label-form-group {
   border-top: 1px solid #e9ecef; }
 
 .footer {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0rem;
   background-color: #333;
   color: #fff; }
 
 .copyright {
-  background-color: #c7c7c7; }
+  background-color: #333; }
 
 a {
   color: #00e5e5; }
@@ -280,10 +285,14 @@ a {
   border-width: 2px; }
 
 .bg-primary {
-  background-color: #c7c7c7 !important; }
+  background-color: #a3a3a3;
+  background-image: url("../img/background.png") !important; }
 
 .bg-secondary {
   background-color: #333 !important; }
+
+.bg-about {
+  background-color: #a3a3a3 !important; }
 
 .text-primary {
   color: #333 !important; }
